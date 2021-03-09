@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>COVID Cases and IAD Percentages</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for the Heroic Features template -->
+  <link href="css/heroic-features.css" rel="stylesheet">
+
+  <!-- Additional custom styling -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">COVID-19 and Mental Health</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="CaseCounts.html">COVID-19 Case Counts</a>
+                    <a class="dropdown-item" href="IADPercent.html">Indicators of Anxiety & Depression</a>
+                    <a class="dropdown-item" href="CasesIAD.html">Case Counts & IAD%</a>
+                    <a class="dropdown-item" href="Regression.html">Regression Analysis</a>
+                </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Comparisons</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Data</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class = "col-md-8">
+
+        <!-- Jumbotron Header -->
+        <header class="jumbotron my-4">
+          <h1 class="display-5">COVID Cases and IAD%</h1>
+          <img class="mx-auto d-block img-fluid" src="IAD_cases_US_scatter.png">
+          <p class="lead">This scatterplot shows that the higher the COVID case counts in the US, the higher the levels of anxiety and depression in the US population.  
+          </p>
+          <a href="https://github.com/isdicely/Project-1/blob/main/README.md" class="btn btn-primary btn-lg">See Detailed Findings</a>
+        <!--  <img class="mx-auto d-block img-fluid" src="IAD_Baseline_Comparison.jpg" width="700" height="150"style= "border:1px solid LightSlateGrey" > -->
+        </header>
+      </div>
+   
+    <!-- Create a column to the right for the chart cards -->
+    <div class = "col-md-4">
+
+    <!-- Page Features -->
+    <div class="row text-center">
+      <div class="col-lg-6 col-md-6 mb-1 px-1">
+        <div class="card h-100">
+          <img class="card-img-top img-fluid" src="USCases.png" alt="" width="500" height="175">
+          <div class="card-footer">
+            <a href="CaseCounts.html" class="btn btn-primary">Case Counts</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 mb-1 px-1">
+        <div class="card h-100">
+          <img class="card-img-top img-fluid" src="AID_Over_Time_In_USA_line.png" alt="" width="500" height="175">
+            <div class="card-footer">
+            <a href="IADPercent.html" class="btn btn-primary">IAD%</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-lg-6 col-md-6 mb-1 px-1">
+        <div class="card h-100 maincard">
+          <img class="card-img-top img-fluid" src="IAD_cases_US_scatter.png" alt="" width="500" height="175">
+           <div class="card-footer">
+            <a href="CasesIAD.html" class="btn btn-primary">Cases-IAD%</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 mb-1 px-1">
+        <div class="card h-100">
+          <img class="card-img-top img-fluid" src="IAD_cases_US_regression.png" alt="" width="500" height="175">
+           <div class="card-footer">
+            <a href="Regression.html" class="btn btn-primary">Regression</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Margaret Thorpe 2021</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
