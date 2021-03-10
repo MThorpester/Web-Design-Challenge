@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Data Table with COVID-19 and IAD% data</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/heroic-features.css" rel="stylesheet">
+
+    <!-- Additional custom styling -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="LandingPage.html">COVID-19 and Mental Health</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="CaseCounts.html">COVID-19 Case Counts</a>
+                    <a class="dropdown-item" href="IADPercent.html">Indicators of Anxiety & Depression</a>
+                    <a class="dropdown-item" href="CasesIAD.html">Case Counts & IAD%</a>
+                    <a class="dropdown-item" href="Regression.html">Regression Analysis</a>
+                </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Comparisons</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Data</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+      <!-- Jumbotron Header -->
+      <header class="jumbotron my-4">
+        <h1 class="display-5">Detailed COVID and IAD% Data</h1>
+         <p class="lead">This table includes the key data used for plotting in this project. 
+        </p>
+      </header>
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead>
+              <tr style="text-align: right;">
+                <th>Date</th>
+                <th>NY Actual Cases</th>
+                <th>NY Actual Deaths</th>
+                <th>NY IAD%</th>
+                <th>CA Actual Cases</th>
+                <th>CA Actual Deaths</th>
+                <th>CA IAD%</th>
+                <th>US Actual Cases</th>
+                <th>US Actual Deaths</th>
+                <th>US IAD%</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>4/29/2020</th>
+                <td>41496</td>
+                <td>3503</td>
+                <td>41.4</td>
+                <td>11104</td>
+                <td>533</td>
+                <td>37.4</td>
+                <td>202201</td>
+                <td>13653</td>
+                <td>35.9</td>
+              </tr>
+              <tr>
+                <th>5/6/2020</th>
+                <td>24200</td>
+                <td>3020</td>
+                <td>41.4</td>
+                <td>12315</td>
+                <td>525</td>
+                <td>37.4</td>
+                <td>184825</td>
+                <td>13098</td>
+                <td>35.9</td>
+              </tr>
+              <tr>
+                <th>5/13/2020</th>
+                <td>19702</td>
+                <td>1669</td>
+                <td>36.9</td>
+                <td>12326</td>
+                <td>522</td>
+                <td>34.4</td>
+                <td>167262</td>
+                <td>10761</td>
+                <td>34.4</td>
+              </tr>
+              <tr>
+                <th>5/20/2020</th>
+                <td>14043</td>
+                <td>1161</td>
+                <td>34.9</td>
+                <td>12916</td>
+                <td>502</td>
+                <td>38.8</td>
+                <td>160920</td>
+                <td>9104</td>
+                <td>33.9</td>
+              </tr>
+              <tr>
+                <th>5/27/2020</th>
+                <td>10592</td>
+                <td>783</td>
+                <td>34.4</td>
+                <td>14923</td>
+                <td>448</td>
+                <td>36.2</td>
+                <td>147278</td>
+                <td>7381</td>
+                <td>34.3</td>
+              </tr>
+              <tr>
+                <th>6/3/2020</th>
+                <td>7767</td>
+                <td>526</td>
+                <td>34.8</td>
+                <td>18707</td>
+                <td>477</td>
+                <td>38.6</td>
+                <td>148451</td>
+                <td>6572</td>
+                <td>35.5</td>
+              </tr>
+              <tr>
+                <th>6/10/2020</th>
+                <td>11117</td>
+                <td>491</td>
+                <td>38.6</td>
+                <td>18504</td>
+                <td>415</td>
+                <td>39.7</td>
+                <td>150967</td>
+                <td>5934</td>
+                <td>36.1</td>
+              </tr>
+              <tr>
+                <th>6/17/2020</th>
+                <td>4854</td>
+                <td>341</td>
+                <td>32.9</td>
+                <td>20824</td>
+                <td>432</td>
+                <td>37.9</td>
+                <td>161430</td>
+                <td>4662</td>
+                <td>36.0</td>
+              </tr>
+              <tr>
+                <th>6/24/2020</th>
+                <td>4520</td>
+                <td>270</td>
+                <td>32.9</td>
+                <td>33207</td>
+                <td>424</td>
+                <td>39.1</td>
+                <td>218524</td>
+                <td>4173</td>
+                <td>36.1</td>
+              </tr>
+              <tr>
+                <th>7/1/2020</th>
+                <td>4472</td>
+                <td>790</td>
+                <td>34.3</td>
+                <td>42435</td>
+                <td>458</td>
+                <td>38.1</td>
+                <td>304796</td>
+                <td>6213</td>
+                <td>37.8</td>
+              </tr>
+              <tr>
+                <th>7/8/2020</th>
+                <td>4737</td>
+                <td>158</td>
+                <td>39.7</td>
+                <td>56811</td>
+                <td>472</td>
+                <td>39.4</td>
+                <td>367612</td>
+                <td>4026</td>
+                <td>39.0</td>
+              </tr>
+              <tr>
+                <th>7/15/2020</th>
+                <td>5157</td>
+                <td>165</td>
+                <td>38.3</td>
+                <td>58166</td>
+                <td>665</td>
+                <td>44.5</td>
+                <td>435535</td>
+                <td>4869</td>
+                <td>40.3</td>
+              </tr>
+              <tr>
+                <th>7/22/2020</th>
+                <td>4684</td>
+                <td>130</td>
+                <td>41.1</td>
+                <td>65942</td>
+                <td>643</td>
+                <td>44.1</td>
+                <td>467383</td>
+                <td>5800</td>
+                <td>40.9</td>
+              </tr>
+              <tr>
+                <th>8/25/2020</th>
+                <td>4023</td>
+                <td>51</td>
+                <td>34.4</td>
+                <td>40428</td>
+                <td>915</td>
+                <td>38.0</td>
+                <td>291340</td>
+                <td>6692</td>
+                <td>36.4</td>
+              </tr>
+              <tr>
+                <th>9/1/2020</th>
+                <td>4562</td>
+                <td>58</td>
+                <td>34.4</td>
+                <td>34702</td>
+                <td>761</td>
+                <td>38.0</td>
+                <td>294061</td>
+                <td>9045</td>
+                <td>36.4</td>
+              </tr>
+              <tr>
+                <th>9/8/2020</th>
+                <td>4732</td>
+                <td>53</td>
+                <td>37.7</td>
+                <td>30114</td>
+                <td>740</td>
+                <td>39.1</td>
+                <td>263075</td>
+                <td>4998</td>
+                <td>36.2</td>
+              </tr>
+              <tr>
+                <th>9/15/2020</th>
+                <td>5674</td>
+                <td>50</td>
+                <td>37.7</td>
+                <td>22102</td>
+                <td>693</td>
+                <td>39.1</td>
+                <td>260325</td>
+                <td>5826</td>
+                <td>36.2</td>
+              </tr>
+              <tr>
+                <th>9/22/2020</th>
+                <td>5390</td>
+                <td>31</td>
+                <td>36.2</td>
+                <td>24311</td>
+                <td>620</td>
+                <td>42.3</td>
+                <td>300788</td>
+                <td>5166</td>
+                <td>37.2</td>
+              </tr>
+              <tr>
+                <th>9/29/2020</th>
+                <td>6533</td>
+                <td>63</td>
+                <td>36.2</td>
+                <td>23101</td>
+                <td>569</td>
+                <td>42.3</td>
+                <td>284926</td>
+                <td>5222</td>
+                <td>37.2</td>
+              </tr>
+              <tr>
+                <th>10/6/2020</th>
+                <td>9530</td>
+                <td>91</td>
+                <td>35.2</td>
+                <td>21036</td>
+                <td>537</td>
+                <td>42.4</td>
+                <td>306606</td>
+                <td>4803</td>
+                <td>37.5</td>
+              </tr>
+              <tr>
+                <th>10/13/2020</th>
+                <td>9678</td>
+                <td>72</td>
+                <td>35.2</td>
+                <td>23945</td>
+                <td>404</td>
+                <td>42.4</td>
+                <td>358375</td>
+                <td>4919</td>
+                <td>37.5</td>
+              </tr>
+              <tr>
+                <th>10/20/2020</th>
+                <td>10282</td>
+                <td>91</td>
+                <td>38.9</td>
+                <td>21671</td>
+                <td>411</td>
+                <td>39.9</td>
+                <td>413906</td>
+                <td>5128</td>
+                <td>37.8</td>
+              </tr>
+              <tr>
+                <th>10/27/2020</th>
+                <td>13475</td>
+                <td>93</td>
+                <td>38.9</td>
+                <td>30121</td>
+                <td>408</td>
+                <td>39.9</td>
+                <td>502950</td>
+                <td>7350</td>
+                <td>37.8</td>
+              </tr>
+              <tr>
+                <th>11/3/2020</th>
+                <td>15239</td>
+                <td>118</td>
+                <td>36.5</td>
+                <td>30474</td>
+                <td>286</td>
+                <td>43.7</td>
+                <td>674993</td>
+                <td>5961</td>
+                <td>41.4</td>
+              </tr>
+              <tr>
+                <th>11/10/2020</th>
+                <td>22796</td>
+                <td>171</td>
+                <td>36.5</td>
+                <td>42546</td>
+                <td>315</td>
+                <td>43.7</td>
+                <td>860455</td>
+                <td>7539</td>
+                <td>41.4</td>
+              </tr>
+              <tr>
+                <th>11/17/2020</th>
+                <td>32710</td>
+                <td>198</td>
+                <td>41.7</td>
+                <td>60760</td>
+                <td>298</td>
+                <td>45.1</td>
+                <td>1106417</td>
+                <td>8173</td>
+                <td>42.6</td>
+              </tr>
+              <tr>
+                <th>11/24/2020</th>
+                <td>42178</td>
+                <td>284</td>
+                <td>41.7</td>
+                <td>87721</td>
+                <td>470</td>
+                <td>45.1</td>
+                <td>1209118</td>
+                <td>11079</td>
+                <td>42.6</td>
+              </tr>
+              <tr>
+                <th>12/1/2020</th>
+                <td>50146</td>
+                <td>381</td>
+                <td>38.9</td>
+                <td>99490</td>
+                <td>442</td>
+                <td>43.2</td>
+                <td>1136858</td>
+                <td>10657</td>
+                <td>41.4</td>
+              </tr>
+              <tr>
+                <th>12/8/2020</th>
+                <td>68598</td>
+                <td>493</td>
+                <td>38.9</td>
+                <td>164518</td>
+                <td>836</td>
+                <td>43.2</td>
+                <td>1433030</td>
+                <td>15512</td>
+                <td>41.4</td>
+              </tr>
+              <tr>
+                <th>12/15/2020</th>
+                <td>70376</td>
+                <td>731</td>
+                <td>40.7</td>
+                <td>227663</td>
+                <td>1141</td>
+                <td>45.0</td>
+                <td>1494872</td>
+                <td>20509</td>
+                <td>42.4</td>
+              </tr>
+              <tr>
+                <th>12/22/2020</th>
+                <td>72745</td>
+                <td>887</td>
+                <td>40.7</td>
+                <td>307637</td>
+                <td>1735</td>
+                <td>45.0</td>
+                <td>1499779</td>
+                <td>18644</td>
+                <td>42.4</td>
+              </tr>
+              <tr>
+                <th>1/12/2021</th>
+                <td>117110</td>
+                <td>1266</td>
+                <td>40.2</td>
+                <td>294954</td>
+                <td>3510</td>
+                <td>45.4</td>
+                <td>1723061</td>
+                <td>23160</td>
+                <td>41.1</td>
+              </tr>
+              <tr>
+                <th>1/19/2021</th>
+                <td>102944</td>
+                <td>1394</td>
+                <td>40.2</td>
+                <td>249680</td>
+                <td>3226</td>
+                <td>45.4</td>
+                <td>1391479</td>
+                <td>20989</td>
+                <td>41.1</td>
+              </tr>
+            </tbody>
+          </table>
+    </div> <!-- /.table-responsive -->
+  </div> <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Margaret Thorpe 2021</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
