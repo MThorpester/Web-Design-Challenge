@@ -3,7 +3,7 @@ In this project I designed and deployed a website describing our Data Analytics 
 The site is live and can be accessed at https://mthorpester.github.io/Web-Design-Challenge/  
 
 ## Structure of the Repository
--<b> Web-Design-Challenge/</b> (root folder) contains the main index.html file which redirects to html files in the WebVisualizations folder
+- <b>Web-Design-Challenge/</b> (root folder) contains the main index.html file which redirects to html files in the WebVisualizations folder
 - <b>WebVisualizations/</b> contains:
     - the rest of the html files, and the Jupyter Notebook used to generate the html for the data table,
     - <b>assets/</b> contains all image and csv files
