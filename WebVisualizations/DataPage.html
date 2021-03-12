@@ -11,13 +11,13 @@
   <title>Data Table with COVID-19 and IAD% data</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/heroic-features.css" rel="stylesheet">
 
     <!-- Additional custom styling -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
@@ -44,10 +44,10 @@
                 </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Comparisons</a>
+              <a class="nav-link" href="Comparisons.html">Comparisons</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="Comparisons.html">Data</a>
+                <a class="nav-link" href="DataPage.html">Data</a>
           </li>
         </ul>
       </div>
@@ -59,8 +59,20 @@
       <!-- Jumbotron Header -->
       <header class="jumbotron my-4">
         <h1 class="display-5">Detailed COVID and IAD% Data</h1>
-         <p class="lead">This table includes the key data used for plotting in this project. 
+         <p class="lead">This table includes the key data that was used for plotting in this project. CDC reports aggregate counts of COVID-19 cases and death numbers daily online, 
+           based on the most recent numbers reported by states, territories, and other jurisdictions. They also, in partnership with the US Census Bureau, 
+           conduct the Household Pulse Survey which gathers information on the frequency of anxiety and depression symptoms. </p>
+         <p>  
+           More information about these data sources can be found here:
         </p>
+        <ul>
+          <li>
+            <a href="https://healthdata.gov/dataset/united-states-covid-19-cases-and-deaths-state-over-time ">CDC COVID-19 datasets</a>
+          </li>
+          <li>
+            <a href="https://www.cdc.gov/nchs/covid19/pulse/mental-health.htm">CDC Indicators of Anxiety and Depression datasets</a>
+          </li>
+        </ul>
       </header>
     <div class="table-responsive">
         <table class="table table-striped table-bordered">
