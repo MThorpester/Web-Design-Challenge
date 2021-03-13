@@ -1,6 +1,7 @@
 # Web-Design-Challenge
-In this project I designed and deployed a website describing our Data Analytics Bootcamp project "Anxiety and Depression in the time of COVID-19" using GitHub Pages, Bootstrap, Python, HTML and CSS.
-The site is live and can be accessed at https://mthorpester.github.io/Web-Design-Challenge/  
+In this project I designed and deployed a website describing our Data Analytics Bootcamp project "Anxiety and Depression in the time of COVID-19" using GitHub Pages, Bootstrap, Python, HTML and CSS.<br>
+- The site is live and can be accessed at https://mthorpester.github.io/Web-Design-Challenge/
+- Details about the original project are available here: https://github.com/isdicely/Project-1#ucd-bootcamp-data-analytics---project-1-anxiety-and-depression-in-the-time-of-covid-19
 
 ## Structure of the Repository
 - <b>Web-Design-Challenge/</b> (root folder) contains the main index.html file which redirects to html files in the WebVisualizations folder
